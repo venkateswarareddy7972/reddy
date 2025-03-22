@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    border: 4px solid lawngreen;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    border-radius: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-inline: 30px;
+}
+.item{
+    border: 3px solid aqua;
+    margin: 10px;
+    height: 250;
+    width: 200;
+}
